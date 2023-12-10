@@ -13,7 +13,7 @@ function getClockAngle(x: string): number {
   } else if (ans <= 0) {
     ans = 0 - ans;
   }
-
+  console.log("ans", ans);
   return ans;
 }
 
